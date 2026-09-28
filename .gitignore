@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Keep unlicensed crawl output out of this public repository.
+data/raw/
+data/extracted/
+content/en/
+content/vi/
+
+# Local screenshots and temporary reports.
+reports/local/
+*.log
