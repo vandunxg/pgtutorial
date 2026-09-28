@@ -1,18 +1,18 @@
 # Project progress
 
-Status: initial UI reconnaissance complete; visual browser inspection and GitHub Pages activation are pending.
+Status: first 10-page discovery pass complete; full visual UI inspection remains pending.
 
-- [x] Inspect homepage navigation and representative article structure through publicly indexed HTML
-- [x] Record initial UI elements and source rights notice in reports/ui-reconnaissance.md
+- [x] Inspect homepage and sample article structures through publicly indexed HTML
+- [x] Record first 10 article URLs, section order, titles, and language status in articles.json
+- [x] Add original short Vietnamese discovery summaries for the first 10 pages
+- [x] Confirm each inspected article footer states All Rights Reserved; no reuse license was found on-page
 - [ ] Verify terms, robots.txt, and sitemap.xml with direct browser access
 - [ ] Inspect desktop/mobile layout and interactions in a visual browser
-- [ ] Inventory all course and article URLs
-- [ ] Decide crawl, storage, and rendering architecture
-- [ ] Implement respectful crawler and extraction validation
-- [ ] Begin English-to-Vietnamese translation page by page
-- [ ] Implement bilingual UI and language route mapping
-- [x] Add CI checks and GitHub Pages deployment workflow
-- [ ] Enable GitHub Pages with source set to GitHub Actions in repository settings
-- [ ] Run completeness, link, responsive, and deployed-page checks
+- [ ] Continue the complete course/article inventory beyond these 10 pages
+- [ ] Obtain redistribution permission or a license that allows publishing article text and translations
+- [ ] Implement authorized, respectful crawl and extraction workflow
+- [ ] Translate and review each page only when public redistribution is authorized
+- [x] Add CI checks and deploy scaffold to GitHub Pages
+- [ ] Compare the deployed mirror UI with the source after visual reconnaissance
 
-The observed homepage groups the core PostgreSQL tutorials into 20 sections. Other groups are also linked from the global navigation; the complete article count has not been inventoried. No article body has been crawled or translated.
+The first 10 pages cover six Getting Started articles, three Filtering Rows articles, and one Working with Tables article. This is a partial inventory, not the total site count. No full article body has been committed or translated.
