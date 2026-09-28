@@ -5,7 +5,8 @@ const requiredFiles = [
   "TRANSLATION_RULES.md",
   "catalog/articles.json",
   "catalog/PROGRESS.md",
-  "README.md"
+  "README.md",
+  "site/index.html"
 ];
 
 for (const file of requiredFiles) {
